@@ -19,6 +19,7 @@ export default function Home() {
       .then((d) => setSymbols(d))
       .catch(() => setSymbols([]));
   }, []);
+// Usama Nadeem
 
   if (!me?.email) {
     return (
